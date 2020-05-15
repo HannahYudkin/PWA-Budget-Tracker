@@ -4,7 +4,7 @@ const path = require("path");
 const config = {
     entry: {
         app: "/public/index.js",
-        //database: "/public/db.js",
+        database: "/public/db.js",
         transaction: "/model/transanction.js"
     },
     output: {
@@ -33,7 +33,7 @@ const config = {
             fingerprints: false, 
             name: "PWA Budget Tracker",
             short_name: "Budget Tracker",
-            description: "An application to track your budget. Also works as a PWA",
+            description: "An PWA application to track your budget.",
             background_color: "#C3EDEA",
             theme_color: "#ffffff",
             start_url: "/"
